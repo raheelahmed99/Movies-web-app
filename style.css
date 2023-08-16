@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(10, 1, 30);
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#logo h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    background: linear-gradient(180deg, #08E2FB 0%, #EC46E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 20px;
+}
+
+.navbar {
+    margin: 0px 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+    padding: 0px 15px;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(224, 209, 209);
+    font-size: 1.2em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar .fa-solid {
+    color: #ffff;
+    font-size: 1.2em;
+}
+
+.email-login {
+    margin: 10px 10px 0px 0px;
+    line-height: 0;
+}
+
+.email-login .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5px;
+}
+
+.email-login .fa-chevron-down {
+    color: #ffff;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+
+.main-movie {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-movie .main-content {
+    display: inline-block;
+    width: 70%;
+    margin: 1em;
+}
+
+.main-top-content {
+    padding: 0.1em 2em;
+    height: 18em;
+    background: url(images/cover-main.png);
+    background-size: cover;
+}
+
+.main-top-content h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.main-content .main-top-content button {
+    position: absolute;
+    width: 175px;
+    height: 55px;
+    left: 55px;
+    top: 273px;
+    border: none;
+    color: #ffff;
+    background: linear-gradient(96.57deg, #EC46E5 6.66%, #00E7FC 49.35%, #B82BEA 93.85%);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fa-play:before {
+    content: "\f04b";
+    margin-right: 15px;
+}
+
+.box-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+
+}
+
+.box-description {
+    margin-top: 2em;
+}
+
+.main-bottom-content .box-description .heading h1,
+div.side-line,
+h6 {
+    display: inline-block;
+    align-items: center;
+
+}
+
+.main-bottom-content .box-description .side-line {
+    height: 3em;
+    width: 0.2em;
+    background: linear-gradient(rgb(10, 1, 30), #EC46E5, rgb(10, 1, 30));
+    margin: 0em 2em;
+
+}
+
+.main-bottom-content .box-description .links a {
+    position: absolute;
+    right: 0.3em;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.main-bottom-content .movie-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-bottom-content .movie-box {
+    position: relative;
+    height: 187px;
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px;
+
+}
+
+.main-bottom-content .movie-box .trending {
+    display: block;
+    width: 92px;
+    height: 25px;
+    padding: 10px 0px 0px 10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgb(234, 228, 228);
+    border-radius: 20px;
+    margin: 15px 10px;
+
+}
+
+.main-bottom-content .movie-box .trending p,
+.fa-solid .fa-fire-flame-curved {
+    display: inline;
+}
+
+.fa-fire-flame-curved {
+    color: #FF9800;
+}
+
+.main-bottom-content .movie-box .play-area-details {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 10px;
+    width: 300px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 8px;
+
+}
+
+.main-bottom-content .box1 {
+    background: url(images/box1-img1.png);
+}
+
+.main-bottom-content .box2 {
+    background: url(images/box1-img2.png);
+}
+
+.main-bottom-content .box3 {
+    background: url(images/box1-img3.png);
+}
+
+.main-bottom-content .box4 {
+    background: url(images/box2-img1.png);
+}
+
+.main-bottom-content .box5 {
+    background: url(images/box2-img2.png);
+}
+
+.main-bottom-content .box6 {
+    background: url(images/box2-img3.png);
+}
+
+.play-area-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: rgb(4, 4, 4);
+}
+
+.play-area-details .left-side-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+}
+
+.play-area-details .left-side-area .title-date h4 {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 0px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.play-area-details .left-side-area .title-date p {
+    font-size: 9px;
+}
+
+.play-area-details .right-side-area .duration-time {
+    height: 20px;
+    width: 55px;
+    border-radius: 8px;
+    padding: 5px 14px 5px 14px;
+    background-color: #ffff;
+    font-size: 9px;
+    text-align: center;
+
+}
+
+.main-movie .side-content {
+
+
+    width: 30%;
+
+    background: #0A123E;
+
+}
+
+.side-content .search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
+    width: 323px;
+    height: 50px;
+    background: #00072D;
+
+}
+
+.side-content .search-input input {
+    outline: none;
+    background-color: transparent;
+    color: #7A7A7A;
+    font-size: 15px;
+    border: none;
+}
+
+.side-content .slider-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    width: 58px;
+    height: 50px;
+    background: linear-gradient(136.17deg, #EC46E5 8.44%, #00E7FC 64.54%, #B82BEA 108.16%);
+    border-radius: 0px 12px 12px 0px;
+}
+
+.fa-sliders,
+.fa-magnifying-glass {
+    margin: 0px 15px;
+}
+
+.side-content .movies-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.side-content .category-link,
+.heading-bookmarked {
+    position: relative;
+    width: 146px;
+    height: 45px;
+    background: #00072D;
+    border-radius: 12px;
+    align-items: center;
+}
+.side-content .country-select select{
+    width: 100px;
+    height: 30px;
+    color: #FFE600;
+    border: none;
+     background: #0A123E;
+    margin: 10px;
+    
+}
+.side-content .country-select option.country{
+    color: #ffff;
+    font-weight: 400;
+    background: #0A123E;
+    height: 50px;
+    text-align: center;
+ 
+width: 120px;
+height: 255px;
+padding: 10px;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+
+
+}
+.side-content .category-link .fa-plus{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.side-content .category-link h4 {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+  
+}
+
+.side-content .bookmarked {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.side-content .bookmarked .movies-bookmarked {
+    width: 320px;
+    height: 187px;
+    border-radius: 12px;
+    position: relative;
+
+}
+
+.side-content .bookmarked .movies-bookmarked1 {
+    background: url(images/bookmarked\ movies\ img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-content .bookmarked .movies-bookmarked2 {
+    background: url(images/bookmarked\ movies\ img2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.side-content .bookmarked .movies-bookmarked3 {
+    background: url(images/bookmarked\ movies\ img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bookmarked .movie-title-date {
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    bottom: 40px;
+    left: 20px;
+    line-height: 0px;
+    color: #FFFFFF;
+}
+.bookmarked .movie-title-date h4 ,.new-movie h4{
+    font-size: 11px;
+   font-weight: 600;
+}
+.bookmarked .movie-title-date p {
+    font-size: 9px;
+    font-weight: 400;
+    color: #ACACAC;
+}
+.bookmarked .play-icon{
+   position: absolute;
+   top: 100px;
+   left: 150px;
+   font-size: 20px;  
+}
+.bookmarked .new-movie {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 64px;
+    height: 22px;
+    background: #FFFF32;
+    border-radius: 8px;
+}
+.movies-bookmarked1 .new-movie h4 {
+    position: absolute;
+    color: #000000;
+    top: -8px;
+    left: 15px;
+}
